@@ -40,7 +40,7 @@ try {
     driver.navigate().to("http://localhost:3000/recipes");
     WebElement searchBar = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("search")));
     searchBar.sendKeys("a"); // Enter search query
-
+    WebDriverWait wait3 = new WebDriverWait(driver, Duration.ofSeconds(15));
     // Step 3: Wait for search results to update
     List<WebElement> recipeCards = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.cssSelector("body > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > section:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)")));
 

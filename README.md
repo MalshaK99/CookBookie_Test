@@ -1,4 +1,5 @@
-																**CookBookie Test Repository**
+**CookBookie Test Repository**
+
 **Overview**
 
 This repository contains the automated tests for the CookBookie recipe-sharing platform. Utilizing Selenium for testing, we ensure that all functionalities work as intended, providing a seamless user experience.
